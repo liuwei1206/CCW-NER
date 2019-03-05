@@ -19,20 +19,20 @@ Input format:
 =============================
 CoNLL format (prefer BIOES tag scheme), with each character its label for one line. Sentences are splited with a null line.  
 ```Java
-美   B-LOC  
-国 	E-LOC  
-的	  O  
-华	  B-PER  
-莱	  I-PER  
-士	  E-PER  
+美 B-LOC  
+国 E-LOC  
+的	O  
+华	B-PER  
+莱	I-PER  
+士	E-PER  
 
-我 	O  
-跟	  O  
-他	  O  
-谈 	O  
-笑	  O  
-风	  O  
-生	  O   
+我 O  
+跟	O  
+他	O  
+谈 O  
+笑	O  
+风	O  
+生	O   
 ```    
 
 Pretrained Embeddings:
