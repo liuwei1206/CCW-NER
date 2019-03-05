@@ -18,7 +18,7 @@ Pytorch: 0.4.0
 Input format:
 =============================
 CoNLL format (prefer BIOES tag scheme), with each character its label for one line. Sentences are splited with a null line.  
-```Java
+```cpp
 美 B-LOC  
 国 E-LOC  
 的	O  
