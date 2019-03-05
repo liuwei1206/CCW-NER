@@ -23,16 +23,16 @@ CoNLL format (prefer BIOES tag scheme), with each character its label for one li
 国 E-LOC  
 的 O  
 华 B-PER  
-莱I-PER  
-士E-PER  
+莱 I-PER  
+士 E-PER  
 
-我O  
-跟O  
-他O  
-谈O  
-笑O  
-风O  
-生O   
+我 O  
+跟 O  
+他 O  
+谈 O  
+笑 O  
+风 O  
+生 O   
 ```    
 
 Pretrained Embeddings:
