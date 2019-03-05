@@ -17,27 +17,27 @@ Pytorch: 0.4.0
 
 Input format:
 =============================
-CoNLL format (prefer BIOES tag scheme), with each character its label for one line. Sentences are splited with a null line.
+CoNLL format (prefer BIOES tag scheme), with each character its label for one line. Sentences are splited with a null line.  
 
-美   B-LOC
-国 	E-LOC
-的	  O
-华	  B-PER
-莱	  I-PER
-士	  E-PER
+美   B-LOC  
+国 	E-LOC  
+的	  O  
+华	  B-PER  
+莱	  I-PER  
+士	  E-PER  
 
-我 	O
-跟	  O
-他	  O
-谈 	O
-笑	  O
-风	  O
-生	  O 
+我 	O  
+跟	  O  
+他	  O  
+谈 	O  
+笑	  O  
+风	  O  
+生	  O   
 
 Pretrained Embeddings:
 ===============
-Character embeddings: [gigword_chn.all.a2b.uni.ite50.vec](https://pan.baidu.com/s/1pLO6T9D)
-Word embeddings: [ctb.50d.vec](https://pan.baidu.com/s/1pLO6T9D)
+Character embeddings: [gigword_chn.all.a2b.uni.ite50.vec](https://pan.baidu.com/s/1pLO6T9D)  
+Word embeddings: [ctb.50d.vec](https://pan.baidu.com/s/1pLO6T9D)  
 
 
 Run:
