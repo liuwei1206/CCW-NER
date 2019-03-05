@@ -47,7 +47,8 @@ Word embeddings: [ctb.50d.vec](https://pan.baidu.com/s/1pLO6T9D)
 
 Run:
 ============
-put each dataset to the data dir, and then simply run the .py file. For example, to run Weibo experiment, just run: python3 weibo.py
+put each dataset to the data dir, and then simply run the .py file.   
+For example, to run Weibo experiment, just run: python3 weibo.py
 
 Cite:
 ========
