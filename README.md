@@ -14,6 +14,10 @@ Requirement:
 Python 3.6  
 Pytorch: 0.4.0  
 
+if you want to use the tensorboard in our code, you should also install the followings:  
+tensorboardX 1.2  
+tensorflow 1.6.0
+
 
 Input format:
 =============================
