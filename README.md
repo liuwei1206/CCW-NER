@@ -19,10 +19,10 @@ Input format:
 =============================
 CoNLL format (prefer BIOES tag scheme), with each character its label for one line. Sentences are splited with a null line.  
 ```cpp
-美B-LOC  
-国E-LOC  
-的O  
-华B-PER  
+美 B-LOC  
+国 E-LOC  
+的 O  
+华 B-PER  
 莱I-PER  
 士E-PER  
 
