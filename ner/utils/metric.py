@@ -1,8 +1,4 @@
 # -*- coding: utf-8 -*-
-# @Author: Jie
-# @Date:   2017-02-16 09:53:19
-# @Last Modified by:   Jie Yang,     Contact: jieynlp@gmail.com
-# @Last Modified time: 2018-01-29 15:32:53
 
 
 # from operator import add
