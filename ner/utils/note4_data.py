@@ -1,8 +1,5 @@
 # -*- coding: utf-8 -*-
-# @Author: Jie
-# @Date:   2017-06-14 17:34:32
-# @Last Modified by:   Jie Yang,     Contact: jieynlp@gmail.com
-# @Last Modified time: 2018-01-29 15:26:51
+
 import sys
 import numpy as np
 import pickle
