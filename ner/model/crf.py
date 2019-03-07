@@ -1,8 +1,5 @@
 # -*- coding: utf-8 -*-
-# @Author: Jie Yang
-# @Date:   2017-12-04 23:19:38
-# @Last Modified by:   Jie Yang,     Contact: jieynlp@gmail.com
-# @Last Modified time: 2018-05-27 22:48:17
+
 import torch
 import torch.autograd as autograd
 import torch.nn as nn
