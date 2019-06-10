@@ -3,7 +3,7 @@ An Encoding Strategy based Word-Character LSTM for Chinese NER
 An model take both character and words as input for Chinese NER task.  
   
   
-Models and results can be found at our NAACL 2019 paper "An Encoding Strategy based Word-Character LSTM for Chinese NER". It achieves state-of-the-art performance on most of the dataset.  
+Models and results can be found at our NAACL 2019 paper "[An Encoding Strategy based Word-Character LSTM for Chinese NER](https://www.aclweb.org/anthology/papers/N/N19/N19-1247/)". It achieves state-of-the-art performance on most of the dataset.  
 
 
 Most of the code is written with reference to Yang Jie's "NCRF++". To know more about "NCRF++", please refer to the paper "NCRF++: An Open-source Neural Sequence Labeling Toolkit".   
