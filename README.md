@@ -58,11 +58,11 @@ Cite:
       Xu, Tongge  and
       Xu, Qinghua  and
       Song, Jiayu  and
-      Zu, Yueran",
-    booktitle = "Proceedings of the 2019 Conference of the North {A}merican Chapter of the Association for Computational Linguistics: Human Language Technologies",
-    year = "2019",
-    publisher = "Association for Computational Linguistics",
-    url = "https://www.aclweb.org/anthology/N19-1247",
-    pages = "2379--2389"
+      Zu, Yueran", \
+    booktitle = "Proceedings of the 2019 Conference of the North {A}merican Chapter of the Association for Computational Linguistics: Human Language Technologies", \
+    year = "2019", \
+    publisher = "Association for Computational Linguistics", \
+    url = "https://www.aclweb.org/anthology/N19-1247", \
+    pages = "2379--2389" \
 }
 
