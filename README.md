@@ -52,4 +52,19 @@ For example, to run Weibo experiment, just run: python3 weibo.py
 
 Cite:
 ========
+@inproceedings{liu-etal-2019-encoding,
+    title = "An Encoding Strategy Based Word-Character {LSTM} for {C}hinese {NER}",
+    author = "Liu, Wei  and
+      Xu, Tongge  and
+      Xu, Qinghua  and
+      Song, Jiayu  and
+      Zu, Yueran",
+    booktitle = "Proceedings of the 2019 Conference of the North {A}merican Chapter of the Association for Computational Linguistics: Human Language Technologies, Volume 1 (Long and Short Papers)",
+    month = jun,
+    year = "2019",
+    address = "Minneapolis, Minnesota",
+    publisher = "Association for Computational Linguistics",
+    url = "https://www.aclweb.org/anthology/N19-1247",
+    pages = "2379--2389"
+}
 
