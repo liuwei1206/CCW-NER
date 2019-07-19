@@ -220,10 +220,10 @@ class Gaz_Embed(torch.nn.Module):
             alpha = torch.matmul(alpha, weight2)
 
             # before softmax, we need to mask
-            alpha = alpha * gaz_mask_tensor.contiguous().view(-1, gaz_num).float()
-            # zero_mask = (1 - gaz_mask_tensor.float()) * (-2**31 + 1)
-            # zero_mask = zero_mask.contiguous().view(-1, gaz_num)
-            # alpha = alpha + zero_mask
+            # alpha = alpha * gaz_mask_tensor.contiguous().view(-1, gaz_num).float()
+            zero_mask = (1 - gaz_mask_tensor.float()) * (-2**31 + 1)
+            zero_mask = zero_mask.contiguous().view(-1, gaz_num)
+            alpha = alpha + zero_mask
 
             ### step2 do softmax,
             # [batch * seq_len, gaz_num]
