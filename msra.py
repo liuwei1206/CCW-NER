@@ -314,7 +314,7 @@ def train(data, save_model_dir, seg=True):
         optimizer.load_state_dict(training_state['optimizer'])
         epoch = int(training_state['epoch'])
 
-    batch_size = 1  ## we can train in any batch_size, but this dataset batch_size=1 obtain best result!
+    batch_size = 1  ## we can train in any batch_size, here we set it to 1
     now_batch_num = epoch * len(data.train_Ids) // batch_size
 
     ## start training
