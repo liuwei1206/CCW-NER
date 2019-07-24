@@ -333,7 +333,7 @@ def train(data, save_model_dir, seg=True):
         ## set model in train model
         model.train()
         model.zero_grad()
-        batch_size = 1  ## we can train in any batch_size, but this dataset batch_size=1 obtain best result!
+        batch_size = 1  ## we can train in any batch_size, here we set it to 1
         batch_id = 0
         train_num = len(data.train_Ids)
         total_batch = train_num // batch_size + 1
