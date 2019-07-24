@@ -314,7 +314,7 @@ def train(data, save_model_dir, seg=True):
         optimizer.load_state_dict(training_state['optimizer'])
         epoch = int(training_state['epoch'])
 
-    batch_size = 8  ## current only support batch size = 1 to compulate and accumulate to data.HP_batch_size update weights
+    batch_size = 8  
     now_batch_num = epoch * len(data.train_Ids) // batch_size
 
     ## start training
