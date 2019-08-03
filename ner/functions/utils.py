@@ -41,7 +41,7 @@ def reverse_padded_sequence(inputs, lengths, batch_first=True):
     return reversed_inputs
 
 
-def random_embedding(self, vocab_size, embedding_dim):
+def random_embedding(vocab_size, embedding_dim):
     pretrain_emb = np.empty([vocab_size, embedding_dim])
     scale = np.sqrt(3.0 / embedding_dim)
     for index in range(vocab_size):
